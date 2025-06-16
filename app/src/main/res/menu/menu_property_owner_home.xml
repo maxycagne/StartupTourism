@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/powAccsFragment"
+        android:icon="@drawable/ic_accommodation"
+        android:title="Accommodations" />
+
+    <item
+        android:id="@+id/powResFragment"
+        android:icon="@drawable/ic_list"
+        android:title="Reservations" />
+
+</menu>

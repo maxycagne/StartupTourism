@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_tourist"
+    app:startDestination="@id/touAccsFragment">
+
+    <fragment
+        android:id="@+id/touAccsFragment"
+        android:name="com.example.startuptourism.Activities.Tourist.Fragments.TouAccsFragment"
+        android:label="TouAccsFragment" >
+        <action
+            android:id="@+id/action_touAccsFragment_to_touResFragment"
+            app:destination="@id/touResFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/touResFragment"
+        android:name="com.example.startuptourism.Activities.Tourist.Fragments.TouResFragment"
+        android:label="TouResFragment" >
+        <action
+            android:id="@+id/action_touResFragment_to_touAccsFragment"
+            app:destination="@id/touAccsFragment" />
+    </fragment>
+</navigation>

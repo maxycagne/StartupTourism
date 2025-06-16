@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_owner"
+    app:startDestination="@id/powAccsFragment">
+
+    <fragment
+        android:id="@+id/powAccsFragment"
+        android:name="com.example.startuptourism.Activities.Owner.Fragments.PowAccsFragment"
+        android:label="fragment_pow_accs"
+        tools:layout="@layout/fragment_pow_accs" >
+        <action
+            android:id="@+id/action_powAccsFragment_to_powResFragment"
+            app:destination="@id/powResFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/powResFragment"
+        android:name="com.example.startuptourism.Activities.Owner.Fragments.PowResFragment"
+        android:label="fragment_pow_res"
+        tools:layout="@layout/fragment_pow_res" >
+        <action
+            android:id="@+id/action_powResFragment_to_powAccsFragment"
+            app:destination="@id/powAccsFragment" />
+    </fragment>
+</navigation>

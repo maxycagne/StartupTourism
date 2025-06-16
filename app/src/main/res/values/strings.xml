@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StartupTourism</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="sort_adm_accs">
+        <item>Name</item>
+        <item>Owner</item>
+        <item>Type</item>
+    </string-array>
+    <string-array name="sort_tou">
+        <item>Earliest Check-in</item>
+        <item>Earliest Requested</item>
+    </string-array>
+
+    <string-array name="profile_sources">
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+
+    <string-array name="accom_type">
+        <item>House</item>
+        <item>Room</item>
+        <item>Apartment</item>
+        <item>Bedspace</item>
+    </string-array>
+</resources>

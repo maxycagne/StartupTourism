@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accommodations"
+        android:title="Accommodations"
+        android:icon="@drawable/ic_accommodation"/>
+    <item
+        android:id="@+id/adminstrators"
+        android:title="Administrators"
+        android:icon="@drawable/ic_people"/>
+
+</menu>
